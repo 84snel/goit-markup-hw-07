@@ -1,0 +1,77 @@
+.team {
+  background-color: rgb(245, 244, 250);
+}
+
+.team-list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-list-item {
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
+
+  max-width: 270px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.team-list-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--basic-text-color);
+  margin-top: 30px;
+}
+
+.team-list-item-spec {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--description-text-color);
+  margin-top: 10px;
+}
+
+.team-list-item-groop {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.team-list-item-groop > li + li {
+  margin-left: 10px;
+}
+
+.team-list-item-slink {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  transition: background-color 250ms var(--t-timing-function);
+}
+
+.team-list-item-slink:hover,
+.team-list-item-slink:focus {
+  background-color: var(--accent-text-color);
+}
+
+.team-list-item-slink-icon {
+  fill: var(--base-icon-color);
+  transition: fill 250ms var(--t-timing-function);
+}
+
+.team-list-item-slink:hover .team-list-item-slink-icon,
+.team-list-item-slink:focus .team-list-item-slink-icon {
+  fill: rgb(255, 255, 255);
+}

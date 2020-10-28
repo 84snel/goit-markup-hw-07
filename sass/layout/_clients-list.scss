@@ -1,0 +1,32 @@
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.clients-list-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid rgb(175, 177, 184);
+  border-radius: 4px;
+  transition: border 250ms var(--t-timing-function);
+}
+
+.clients-list-item-link:hover,
+.clients-list-item-link:focus {
+  border: 1px solid var(--accent-text-color);
+}
+
+.clients-list-item-link-icon {
+  fill: var(--base-icon-color);
+  transition: fill 250ms var(--t-timing-function);
+}
+
+.clients-list-item-link:hover .clients-list-item-link-icon,
+.clients-list-item-link:focus .clients-list-item-link-icon {
+  fill: var(--accent-text-color);
+}
