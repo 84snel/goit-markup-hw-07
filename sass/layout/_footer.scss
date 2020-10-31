@@ -12,12 +12,8 @@
 
   .invite-title,
   .joinnews-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.03em;
+    @include font(700, 14px, 1.143, 0.03em, rgb(255, 255, 255));
     text-transform: uppercase;
-    color: rgb(255, 255, 255);
   }
 
   .joinnews {
@@ -50,11 +46,7 @@
   }
 
   &-item-link {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    @include font(400, 14px, 1.714, 0.03em, rgba(255, 255, 255, 0.6));
 
     &[title='location'] {
       color: rgb(255, 255, 255);

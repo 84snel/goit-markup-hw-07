@@ -10,11 +10,8 @@
   margin-top: 30px;
 
   text-align: center;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
-  color: rgb(255, 255, 255);
+
+  @include font(700, 16px, 1.875, 0.06em, rgb(255, 255, 255));
   background: $accent-text-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;

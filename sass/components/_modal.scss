@@ -60,12 +60,8 @@
     }
 
     & > p {
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 1.15;
+      @include font(700, 20px, 1.15, 0.03em);
       text-align: center;
-      letter-spacing: 0.03em;
-      color: $basic-text-color;
     }
 
     & > form {
@@ -73,11 +69,7 @@
       flex-direction: column;
       align-items: center;
       margin-top: 12px;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 1.667;
-      letter-spacing: 0.01em;
-      color: $description-text-color;
+      @include font(400, 12px, 1.1667, 0.01em, $description-text-color);
 
       input[type='checkbox'] {
         appearance: none;
@@ -132,11 +124,7 @@
       }
 
       &::placeholder {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.143;
-        letter-spacing: 0.01em;
-        color: rgba(117, 117, 117, 0.5);
+        @include font(400, 14px, 1.143, 0.01em, rgba(117, 117, 117, 0.5));
       }
     }
   }
@@ -146,9 +134,7 @@
   display: inline-flex;
   align-items: center;
   margin-top: 20px;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
+  @include font(400, 14px, 1.714, 0.03em, $description-text-color);
 
   a {
     color: $accent-text-color;

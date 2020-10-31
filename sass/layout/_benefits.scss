@@ -8,21 +8,13 @@
     width: calc((100% - 3 * 30px) / 4);
 
     & > h3 {
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.143;
-      letter-spacing: 0.03em;
+      @include font(700, 14px, 1.143, 0.03em);
       text-transform: uppercase;
-      color: $basic-text-color;
       margin-top: 30px;
     }
 
     & > p {
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 1.714;
-      letter-spacing: 0.03em;
-      color: $description-text-color;
+      @include font(400, 14px, 1.714, 0.03em, $description-text-color);
       margin-top: 10px;
     }
 

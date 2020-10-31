@@ -31,14 +31,9 @@
     height: 100%;
     padding: 63px 24px;
 
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.556;
-    letter-spacing: 0.03em;
-    color: rgb(255, 255, 255);
+    @include font(400, 18px, 1.556, 0.03em, rgb(255, 255, 255));
 
     background-color: rgba(33, 150, 243, 0.9);
-
     transform: translate(0, 100%);
     transition: transform 250ms $t-timing-function;
 
@@ -56,19 +51,11 @@
   background-color: rgb(255, 255, 255);
 
   > h3 {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: $basic-text-color;
+    @include font(700, 18px, 2, 0.06em);
   }
 
   > p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.03em;
-    color: $description-text-color;
+    @include font(400, 16px, 1.875, 0.03em, $description-text-color);
     margin-top: 4px;
   }
 }

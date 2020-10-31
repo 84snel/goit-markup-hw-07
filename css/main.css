@@ -1,8 +1,4 @@
 @charset "UTF-8";
-/*#212121*/
-/*#757575*/
-/*#2196F3*/
-/*базовый цвет иконок*/
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -87,12 +83,13 @@ img {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #2196f3;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
 }
 
 .logo-header {
@@ -119,6 +116,8 @@ img {
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: white;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
@@ -192,9 +191,11 @@ img {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-align: center;
 }
 
 .modal-main > form {
@@ -204,9 +205,11 @@ img {
   margin-top: 12px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.667;
+  line-height: 1.1667;
   letter-spacing: 0.01em;
   color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 
 .modal-main > form input[type='checkbox'] {
@@ -265,15 +268,21 @@ img {
   line-height: 1.143;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 
 .check-accept {
   display: inline-flex;
   align-items: center;
   margin-top: 20px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 
 .check-accept a {
@@ -329,9 +338,11 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.667;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-align: center;
 }
 
 .header {
@@ -369,6 +380,8 @@ img {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -413,6 +426,8 @@ img {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -437,8 +452,10 @@ img {
   font-size: 44px;
   line-height: 1.364;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: white;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 .benefits-list {
@@ -457,8 +474,10 @@ img {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
   margin-top: 30px;
 }
 
@@ -468,6 +487,8 @@ img {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   margin-top: 10px;
 }
 
@@ -520,10 +541,12 @@ img {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
-  text-align: center;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: white;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .team {
@@ -551,9 +574,11 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-align: center;
   margin-top: 30px;
 }
 
@@ -561,9 +586,11 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.188;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-align: center;
   margin-top: 10px;
 }
 
@@ -651,8 +678,10 @@ img {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: white;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 .footer .joinnews {
@@ -688,6 +717,8 @@ img {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 
 .footer-address-list-item-link[title='location'] {

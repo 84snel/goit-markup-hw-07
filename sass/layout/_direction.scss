@@ -19,13 +19,9 @@
       position: absolute;
       bottom: 27px;
       width: 100%;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.143;
+      @include font(700, 14px, 1.143, 0.03em, rgb(255, 255, 255));
       text-align: center;
-      letter-spacing: 0.03em;
       text-transform: uppercase;
-      color: rgb(255, 255, 255);
     }
   }
 }

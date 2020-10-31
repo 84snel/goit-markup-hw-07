@@ -1,0 +1,9 @@
+@mixin font($fw, $fs, $lh, $ls, $color: $basic-text-color, $f: $basic-font, $s: normal) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+  color: $color;
+  font-family: $f;
+  font-style: $s;
+}
