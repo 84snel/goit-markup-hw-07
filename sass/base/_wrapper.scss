@@ -2,15 +2,33 @@
   width: 1200px;
   padding: 0px 15px;
   margin: 0 auto;
-}
 
-.team .wrapper,
-.сlients .wrapper {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+  .header & {
+    display: flex;
+    align-items: center;
+  }
 
-.portfolio .wrapper {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  .hero & {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .benefits &,
+  .team &,
+  .сlients &,
+  .portfolio & {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .direction & {
+    padding-bottom: 94px;
+  }
+
+  .footer & {
+    display: flex;
+    align-items: baseline;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }

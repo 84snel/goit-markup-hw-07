@@ -1,16 +1,16 @@
 .logo {
-  font-family: var(--logo-font);
+  font-family: $logo-font;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: var(--accent-text-color);
-}
+  color: $accent-text-color;
 
-.logo .logo-header {
-  color: rgb(0, 0, 0);
-}
+  &-header {
+    color: rgb(0, 0, 0);
+  }
 
-.logo .logo-footer {
-  color: rgb(255, 255, 255);
+  &-footer {
+    color: rgb(255, 255, 255);
+  }
 }
